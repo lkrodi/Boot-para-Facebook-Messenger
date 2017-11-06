@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const request = require('request')
 
 //Este es id de token que nos dio FB
-const APP_TOKEN = 'EAAKxwNYfjZBoBAJGOABIEQSDUEtrzKYhkhEpJ7yHRAGAkXYenTogzofyqLhnFZBraX3LAZBq8LP5IRrFXdaAzXKiU570PZAh4jL9YsgWFWsf8BJv2HVtqbTIZCzz6f3ZC80OxdBMz5BwI4IBqPOxAsZCGcq6CosSS41AZCWN8ZCzTiAZDZD'
+const APP_TOKEN = ''
 var app = express()//creo un objeto de servidor express
 app.use(bodyParser.json())//Para que express utilice el bodyparser
 
@@ -143,9 +143,3 @@ function enviaraFacebook(MensajeBOT){
     }
   })
 }
-
-
-
-
-
-/*Arreglos prpopis por mi*/
