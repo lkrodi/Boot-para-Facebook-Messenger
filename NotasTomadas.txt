@@ -1,0 +1,13 @@
+Este Boot se conecta con los servicios de la API de Facebook Messenger
+mediante un puente Hooks llamado NgRock porque es necesario utilizar 
+el protocolo https, mas no el http solo. Usé la documentación para guiarme
+y es la siguiente:
+https://developers.facebook.com/docs/messenger-platform
+
+
+
+
+
+
+
+
