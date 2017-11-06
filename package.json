@@ -1,0 +1,17 @@
+{
+  "name": "pruebafb",
+  "version": "1.0.0",
+  "description": "Facebooo Bot Messenger",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "rodolfoescalante",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {}
+}
